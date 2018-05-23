@@ -1,17 +1,7 @@
-/* Hello, World! program in node.js */
-console.log("Hello, World!");
 
-const http = require("http");
+const express = require('express');
+const app = express();
 
-http.createServer((request, response) => {
-   // Send the HTTP header 
-   // HTTP Status: 200 : OK
-   // Content Type: text/plain
-   response.writeHead(200, {'Content-Type': 'text/plain'});
-   
-   // Send the response body as "Hello World"
-   response.end('Hello World\n');
-}).listen(8081);
 
-// Console will print the message
-console.log('Server running at http://127.0.0.1:8081/');
+var port = process.env.PORT || 3000;
+app.listen(posrt, () => console.log(`Example app listening o port ${process.env.PORT}!`));
