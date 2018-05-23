@@ -1,0 +1,22 @@
+{
+  "name": "2routesexpressapp",
+  "version": "1.0.0",
+  "description": "express app with two routes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aainn/2routesExpressApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aainn/2routesExpressApp/issues"
+  },
+  "homepage": "https://github.com/aainn/2routesExpressApp#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
